@@ -23,8 +23,8 @@ attr_accessor :name
     end
   end
 
-  def save(name)
-    @@all << name
+  def save
+    @@all << self
   end
 
 end
